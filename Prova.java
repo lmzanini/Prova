@@ -48,7 +48,7 @@ public class Prova {
                     i++;
                     j--;
 
-                } while (i<2 || !login.equals(admin.getLogin()) && !senha.equals(admin.getSenha()));
+                } while (i<2 && !login.equals(admin.getLogin()) && !senha.equals(admin.getSenha()));
 
                 
 
